@@ -1,0 +1,282 @@
+/** style sheet***/ 
+
+/** color **/
+body {
+	background: #262626;
+	font-family: 'Montserrat', sans serif;
+}
+main {
+	font-family: 'Roboto', sans serif;
+}
+h2 {
+	font-family:'Roboto', sans serif;
+	font-size:30px;
+	color:#ffffff;
+}
+h3 {
+	font-family: 'Roboto', sans serif;
+	color:#ffffff;
+}
+p {
+	font-family: 'Roboto', sans serif;
+	color:#ffffff;
+	font-size: 18px;
+	text-align:left;
+	
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+	width: 600px;
+	float: left;
+}
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+/** header **/
+header {
+	height: 55px;
+	margin:0 auto;
+	padding: 12px;
+}
+header h1 span {
+	font-weight: 700;
+	color: #ffffff;
+}
+
+header img {
+	height:22px;
+	width:auto;
+	margin:0 auto;
+}
+
+header h1 {
+	font-family: 'Montserrat', sans serif;
+	font-size:28px;
+	text-transform: uppercase;
+	font-weight:300;
+	color:#ffffff;
+	display: inline;
+	padding:10px;
+	line-height: 45px;
+	}
+
+nav {
+	float: right;
+	font-family: 'Montserrat', sans serif;
+	letter-spacing: 2px;
+	font-weight:300;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+	padding-left: 50px;
+}
+/** main section **/
+main {
+	height: 570px;
+	width: auto;
+	background: url('../img/blue-background.png');
+	background-size: cover;
+	padding:0;
+	margin:0 auto;
+
+}
+
+#call-out, h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 62px;
+	color: #ffffff;
+	letter-spacing: 3px;
+	padding: 80px 65px 0 0;
+	line-height: 5px;
+}
+#call-out, h3 {
+	font-family:'Roboto', sans serif;
+	font-size: 42px;
+	color: #ffffff;
+	padding: 25px 0 65px 0;
+	letter-spacing: 3px;
+	line-height: 10px;
+}
+
+#call-out h2 span {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+
+}
+#call-out h3 span {
+	color:#3dadf2;
+
+}
+#portfolio h2{
+	font-family: 'Montserrat', sans serif;
+	font-weight:400;
+	letter-spacing: 3px;
+	font-size:32px;
+	color: #ffffff;
+	text-align: center;
+	margin-top:155px;
+	padding:40px;
+	
+}
+#portfolio h3 {
+	color:#ffffff;
+	font-family:'Montserrat', sans serif;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding:0;
+	margin:0 auto;
+	text-align:left;
+}
+#portfolio h4{
+	font-family:'Montserrat', sans serif;
+	font-size:21px;
+	font-weight:400;
+	text-align:left;
+	padding:15px;
+	margin:0 auto;
+	color: #ffffff;
+}
+#portfolio p{
+	font-family:'Roboto', sans serif;
+	font-size:18px;
+	color: #ffffff;
+	text-align:left;
+	padding:10px;
+	margin:20px;
+	line-height: 25px;
+}
+#jubilee h3{
+	text-align:right;
+}#jubilee h4{
+	text-align:right;
+}
+#jubilee p{
+	text-align:right;
+	padding: 10px;
+}
+
+.work {
+	margin:0 auto;
+	overflow: auto;
+	clear:both;
+	padding-top:10px;
+
+}
+.image {
+	float:left;
+	width: 495px;
+	height: 315px;
+	margin:15px 65px;
+	padding:0;
+	border:1px solid #ffffff;
+}
+.project{
+	width: auto;
+	height: 350px;
+	padding:25px;
+	margin:0 auto;
+}
+#rogue .image {
+	background: url('../img/rogue-pickings-thumbnail.png') no-repeat;
+	background-size: cover;
+}
+#jubilee .image {
+	background: url('../img/jubilee-thumbnail.png') no-repeat;
+	background-size: cover;
+	float:right;
+	padding-left:10px;
+}
+#recipe-cards .image {
+	background: url('../img/recipe-thumbnail.png') no-repeat;
+	background-size: cover;
+}
+#about h2{
+	font-family: 'Montserrat', sans serif;
+	font-weight:400;
+	letter-spacing: 3px;
+	font-size:32px;
+	text-align: center;
+	margin:0 auto;
+	padding:45px;
+	color:#262626;
+}
+#about p{
+	font-family:'Montserrat', sans serif;
+	color: #262626;
+	text-align: left;
+	font-size:16px;
+	padding:25px 45px 0 25px;
+	margin:0 auto;
+	line-height: 23px;
+	word-spacing: 2px;
+}
+#about {
+	background: url('../img/about-coffee.png');
+	height:570px;
+	width: auto;
+	margin:0 auto;
+	padding:0;
+}
+#about .half-width {
+	float:right;
+	clear:both;
+	overflow: auto;
+}
+footer{
+	padding:15px;
+	margin:0 auto;
+	height:300px;
+	width: auto;
+}
+footer h2{
+	font-family: 'Montserrat', sans serif;
+	font-weight:400;
+	letter-spacing: 3px;
+	font-size:32px;
+	text-align: center;
+	margin:0 auto;
+	padding:45px;
+	color: #ffffff;
+}
+footer p{
+	font-family:'Montserrat', sans serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: 300;
+	text-align: center;
+}
+footer h4{
+	font-family:'Montserrat', sans serif;
+	color: #ffffff;
+	font-weight: 300;
+	text-align: left;
+	font-size:21px;
+	text-align: center;
+	padding:0;
+}
+footer img {
+	height:35px;
+	width:auto;
+	margin-left:75px;
+	padding:0;
+
+}
+footer a {
+	text-decoration: none;
+}
